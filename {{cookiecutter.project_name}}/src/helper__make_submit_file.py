@@ -1,0 +1,1 @@
+print("hello, {{cookiecutter.greeting_recipient}}")
