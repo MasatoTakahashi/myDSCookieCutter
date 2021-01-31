@@ -31,9 +31,13 @@ def apply_feature_engineering(d):
   return d
 
 def save_processed_data(d):
-  pass
+  global ts_now
+  d.to_feather(f'./intermediate/processed_data__{ts_now}.feather')
 
-if __name__=='__main__':
-  load_data()
-  apply_feature_engineering()
-  save_processed_data()
+# if __name__=='__main__':
+os.chdir('')
+print(os.getcwd())
+
+load_data()
+apply_feature_engineering()
+save_processed_data()

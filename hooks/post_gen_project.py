@@ -4,7 +4,7 @@ import subprocess
 
 print(os.getcwd())
 
-dirs = ['./input', './submit', './intermediate']
+dirs = ['./input', './submit', './intermediate', './model']
 for d in dirs:
   os.mkdir(d)
 

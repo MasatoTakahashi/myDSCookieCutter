@@ -33,7 +33,10 @@ def train_model():
 def dump_model():
   pass
 
-if __name__=='__main__':
-  load_processed_data()
-  train_model()
-  dump_model()
+# if __name__=='__main__':
+os.chdir('')
+print(os.getcwd())
+
+load_processed_data()
+train_model()
+dump_model()
