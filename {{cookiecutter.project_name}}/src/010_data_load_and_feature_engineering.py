@@ -4,6 +4,10 @@ import pandas as pd
 
 import matplotlib.pyplot as plt 
 import seaborn as sns
+try:
+  sns.set(font=['IPAexGothic'])
+except:
+  pass
 
 from mlflow import log_metric, log_params, log_param, log_artifacts, log_artifact
 
@@ -11,6 +15,7 @@ import logging
 from logging import getLogger
 logging.basicConfig(level=logging.INFO)
 
+sys.path.append('./')
 sys.path.append('../')
 from myDSUtils.general_util import * 
 from myDSUtils.ml_general_util import * 

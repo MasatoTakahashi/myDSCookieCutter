@@ -1,5 +1,8 @@
-.DS_Store
 *.csv
 *.feather
 *.pyc
+.DS_Store
 *.xlsx
+*.cbm
+*.lgbm
+*.tsv

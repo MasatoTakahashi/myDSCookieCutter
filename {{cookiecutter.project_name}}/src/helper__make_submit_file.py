@@ -11,6 +11,7 @@ import logging
 from logging import getLogger
 logging.basicConfig(level=logging.INFO)
 
+sys.path.append('./')
 sys.path.append('../')
 from myDSUtils.general_util import * 
 from myDSUtils.ml_general_util import * 
