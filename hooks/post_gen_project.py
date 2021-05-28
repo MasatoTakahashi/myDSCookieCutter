@@ -19,4 +19,4 @@ for d in dirs:
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'submodule', 'add', 'https://github.com/MasatoTakahashi/myDSUtils'])
 subprocess.call(['git', 'flow', 'init'])
-subprocess.call(['pipenv', 'install'])
+subprocess.call(['/usr/local/bin/pipenv', 'install'])
