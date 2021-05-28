@@ -6,3 +6,4 @@
 *.cbm
 *.lgbm
 *.tsv
+.source
