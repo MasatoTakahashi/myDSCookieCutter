@@ -1,7 +1,5 @@
 {
   "project_name":"project_name",
   "author_name":"Masato Takahashi",
-  "open_source_license":["MIT", "BSD-3-Clause", "No license file"],
-  "file_name":"tbd",
-  "greeting_recipient":"Let there be change"
+  "open_source_license":["MIT", "BSD-3-Clause", "No license file"]
 }

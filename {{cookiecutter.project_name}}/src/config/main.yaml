@@ -1,0 +1,8 @@
+task_type: binary
+# task_type: regression
+
+random_seed: 72
+exec_mode: valid
+
+defaults:
+    - train_params: train_params

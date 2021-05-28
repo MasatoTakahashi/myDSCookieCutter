@@ -1,0 +1,4 @@
+# @package _group_
+objective: binary
+num_boost_round: 1000
+early_stopping_rounds: 3000
