@@ -4,11 +4,11 @@ import subprocess
 print(os.getcwd())
 
 dirs = [
-    './input',
-    './submit',
+    './data/'
+    './data/1000_rawdata',
+    './data/2000_intermediate',
+    './data/3000_submit',
     './src/sql',
-    './intermediate',
-    './intermediate/proc_data',
     './plot',
     './model',
     './log'
