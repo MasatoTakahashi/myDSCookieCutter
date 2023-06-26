@@ -4,7 +4,7 @@ import subprocess
 print(os.getcwd())
 
 dirs = [
-    './data/'
+    './data/',
     './data/1000_rawdata',
     './data/2000_intermediate',
     './data/3000_submit',
