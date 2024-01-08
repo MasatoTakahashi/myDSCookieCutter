@@ -4,14 +4,8 @@ import subprocess
 print(os.getcwd())
 
 dirs = [
-    './input',
-    './submit',
     './src/sql',
-    './intermediate',
-    './intermediate/proc_data',
-    './plot',
-    './model',
-    './log'
+    './plot'
 ]
 for d in dirs:
   os.mkdir(d)
